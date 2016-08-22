@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme.AppCompat.Default" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionModeOverlay">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:actionOverflowButtonStyle">@style/AppTheme.AppCompat.Default.OverFlow
+        </item>
+        <item name="actionOverflowButtonStyle">@style/AppTheme.AppCompat.Default.OverFlow</item>
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+        <item name="colorControlNormal">#c5c5c5</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:popupMenuStyle">@style/PopupMenu</item>
+
+    </style>
+
+    <style name="AppTheme.AppCompat.Default.OverFlow"></style>
+
+    <style name="DrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="color">@android:color/white</item>
+    </style>
+
+    <style name="PopupMenu" parent="@android:style/Widget.PopupMenu">
+        <item name="android:popupBackground">@color/white</item>
+        <item name="android:dropDownHorizontalOffset">-14dp</item>
+        <item name="android:dropDownVerticalOffset">14dp</item>
+    </style>
+
+</resources>

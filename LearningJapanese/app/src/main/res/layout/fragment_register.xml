@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:clickable="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom|center_horizontal">
+
+        <include layout="@layout/toolbar_menu">
+
+        </include>
+
+
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#f4f4f4"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:orientation="horizontal"
+                    android:paddingLeft="@dimen/dimen10">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/fragment_register_capture"
+                        android:layout_width="@dimen/dimen60"
+                        android:layout_height="@dimen/dimen60"
+                        android:layout_marginTop="@dimen/dimen18"
+                        android:src="@drawable/capture">
+
+
+                    </de.hdodenhof.circleimageview.CircleImageView>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:paddingLeft="@dimen/dimen20">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal"
+                                android:weightSum="10">
+
+                                <TextView
+                                    android:layout_width="@dimen/dimen60"
+                                    android:layout_height="match_parent"
+                                    android:gravity="left|center"
+                                    android:text="Họ"
+                                    android:textColor="#666666"
+                                    android:textSize="@dimen/dimens16" />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical">
+
+                                    <EditText
+                                        android:id="@+id/fragment_register_last_name"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:background="@android:color/transparent"
+                                        android:minHeight="@dimen/dimen46"
+                                        android:textColor="@color/black"
+                                        android:textSize="@dimen/dimens16" />
+
+                                    <TextView
+                                        android:id="@+id/fragment_edit_profile_ed_k_last_name_require"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="left"
+                                        android:textColor="@color/red"
+                                        android:textSize="@dimen/dimens12"
+                                        android:visibility="gone" />
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:background="#dedede"></View>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal"
+                                android:weightSum="10">
+
+                                <TextView
+                                    android:layout_width="@dimen/dimen60"
+                                    android:layout_height="match_parent"
+                                    android:gravity="left|center"
+                                    android:text="Tên"
+                                    android:textColor="#666666"
+                                    android:textSize="@dimen/dimens16" />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical">
+
+                                    <EditText
+                                        android:id="@+id/fragment_register_first_nane"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:background="@android:color/transparent"
+                                        android:minHeight="@dimen/dimen46"
+                                        android:textColor="@color/black"
+                                        android:textSize="@dimen/dimens16" />
+
+                                    <TextView
+                                        android:id="@+id/fragment_edit_profile_ed_last_name_require"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="left"
+                                        android:textColor="@color/red"
+                                        android:textSize="@dimen/dimens12"
+                                        android:visibility="gone" />
+                                </LinearLayout>
+                            </LinearLayout>
+
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:background="#dedede"></View>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:weightSum="10">
+
+                                <TextView
+                                    android:layout_width="@dimen/dimen60"
+                                    android:layout_height="match_parent"
+                                    android:gravity="left|center"
+                                    android:text="Email"
+                                    android:textColor="#666666"
+                                    android:textSize="@dimen/dimens16" />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical">
+
+                                    <EditText
+                                        android:id="@+id/fragment_register_email"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:background="@android:color/transparent"
+                                        android:minHeight="@dimen/dimen46"
+                                        android:textColor="@color/black"
+                                        android:textSize="@dimen/dimens16" />
+
+                                    <TextView
+                                        android:id="@+id/fragment_edit_profile_ed_k_first_name_require"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="left"
+                                        android:textColor="@color/red"
+                                        android:textSize="@dimen/dimens12"
+                                        android:visibility="gone" />
+                                </LinearLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:orientation="vertical">
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#dedede"></View>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        android:weightSum="10">
+
+                        <TextView
+                            android:layout_width="@dimen/dimen120"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="@dimen/dimen10"
+                            android:gravity="center|left"
+                            android:text="Ngày sinh"
+                            android:textColor="#666666"
+                            android:textSize="@dimen/dimens16" />
+
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="9"
+
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/fragment_register_birth_day"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="9"
+                                android:background="@android:color/transparent"
+                                android:gravity="center|left"
+                                android:minHeight="@dimen/dimen46"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/dimens16" />
+
+                            <TextView
+                                android:id="@+id/fragment_edit_profile_ed_birthday_require"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="left"
+                                android:textColor="@color/red"
+                                android:textSize="@dimen/dimens12"
+                                android:visibility="gone" />
+                        </LinearLayout>
+
+                        <ImageView
+                            android:id="@+id/fragment_edit_profile_ed_birthday_image"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:src="@drawable/ic_navigate_next_black_48dp"
+                            android:visibility="invisible" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#dedede"></View>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        android:weightSum="10">
+
+                        <TextView
+                            android:layout_width="@dimen/dimen120"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="@dimen/dimen10"
+                            android:gravity="center|left"
+                            android:text="Giới tính"
+                            android:textColor="#666666"
+                            android:textSize="@dimen/dimens16" />
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="9"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/fragment_register_gender"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="9"
+                                android:background="@android:color/transparent"
+                                android:gravity="center|left"
+                                android:hint="@string/hint_please_choose"
+                                android:minHeight="@dimen/dimen46"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/dimens16" />
+
+                            <TextView
+                                android:id="@+id/fragment_edit_profile_ed_gender_require"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="left"
+                                android:textColor="@color/red"
+                                android:textSize="@dimen/dimens12"
+                                android:visibility="gone" />
+                        </LinearLayout>
+
+                        <ImageView
+                            android:id="@+id/fragment_edit_profile_ed_gender_image"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:src="@drawable/ic_navigate_next_black_48dp"
+                            android:visibility="invisible" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#dedede"></View>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        android:weightSum="10">
+
+                        <TextView
+                            android:layout_width="@dimen/dimen120"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="@dimen/dimen10"
+                            android:gravity="left|center"
+                            android:text="Thành phố"
+                            android:textColor="#666666"
+                            android:textSize="@dimen/dimens16" />
+
+                        <TextView
+                            android:id="@+id/fragment_register_city"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="9"
+                            android:background="@android:color/transparent"
+                            android:gravity="center|left"
+                            android:hint="@string/hint_please_choose"
+                            android:minHeight="@dimen/dimen46"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/dimens16" />
+
+                        <ImageView
+                            android:id="@+id/fragment_edit_profile_ed_city_image"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:src="@drawable/ic_navigate_next_black_48dp"
+                            android:visibility="invisible" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#dedede"></View>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="2"
+                        android:orientation="horizontal"
+                        android:weightSum="10">
+
+                        <TextView
+                            android:layout_width="@dimen/dimen120"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="left|center"
+                            android:layout_marginLeft="@dimen/dimen10"
+                            android:paddingTop="@dimen/dimen8"
+                            android:text="Địa chỉ"
+                            android:textColor="#666666"
+                            android:textSize="@dimen/dimens16" />
+
+                        <EditText
+                            android:id="@+id/fragment_register_address"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@android:color/transparent"
+                            android:ellipsize="end"
+                            android:gravity="top"
+                            android:maxLines="4"
+                            android:minHeight="@dimen/dimen40"
+                            android:minLines="4"
+                            android:paddingBottom="@dimen/dimen8"
+                            android:paddingTop="@dimen/dimen8"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/dimens16" />
+
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#dedede"></View>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen22"
+                android:layout_weight="1"></LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen56"
+                android:layout_weight="1"
+                android:gravity="bottom">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right|bottom">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/border_set_layout"
+                        android:gravity="right|bottom">
+
+                        <TextView
+                            android:id="@+id/fragment_edit_profile_txt_confirm"
+                            android:layout_width="@dimen/dimen100"
+                            android:layout_height="@dimen/dimen56"
+                            android:gravity="right|center"
+                            android:paddingRight="@dimen/dimen20"
+                            android:text="Đăng ký"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="@dimen/dimens16" />
+                    </RelativeLayout>
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

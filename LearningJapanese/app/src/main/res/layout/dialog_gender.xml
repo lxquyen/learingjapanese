@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/dialog_background"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txt_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen30"
+            android:paddingLeft="@dimen/dimen29"
+            android:text="Giới tính"
+            android:textColor="@color/black"
+            android:textSize="@dimen/dimens20"
+            android:textStyle="bold" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:scrollbarStyle="outsideOverlay"
+            android:scrollbars="vertical" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dimen20"
+            android:layout_marginTop="@dimen/dimen9"
+            android:paddingRight="@dimen/dimen27">
+
+            <TextView
+                android:id="@+id/txt_ok"
+                android:layout_width="@dimen/dimen50"
+                android:layout_height="@dimen/dimen23"
+                android:layout_alignParentRight="true"
+                android:gravity="center"
+                android:text="Đồng ý"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/dimens15" />
+
+            <TextView
+                android:id="@+id/txt_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dimen23"
+                android:layout_marginRight="@dimen/dimen20"
+                android:layout_toLeftOf="@+id/txt_ok"
+                android:text="Hủy bỏ"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/dimens15" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

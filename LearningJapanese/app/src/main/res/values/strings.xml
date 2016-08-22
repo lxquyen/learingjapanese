@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">LearningJapanese</string>
+    <string name="Login">Bạn đã có tài khoản</string>
+    <string name="register">Bạn chưa có tài khoản</string>
+    <string name="login_content">Vui lòng nhập nội dung cần thiết để đăng nhập</string>
+    <string name="hint_please_choose">Vui lòng chọn</string>
+    <string name="permission_camera_rationale">Camera permission is needed to show the camera preview.</string>
+    <string name="permission_call_rationale">Call permission is needed to show the call preview.</string>
+    <string name="permission_write_external_storage">Write external storage permission is needed to write external storage.</string>
+    <string name="permission_read_external_storage">Read external storage permission is needed to read external storage.</string>
+    <string name="network_error">Kết nối mạng thất bại</string>
+    <string name="empty">Vui lòng nhập vào trường này</string>
+    <string name="error_select">Ngày sinh không hợp lệ</string>
+    <string name="error_select_gender">Giới tính không hợp lệ</string>
+    <string name="male">Nam</string>
+    <string name="female">Nữ</string>
+    <string name="unknown">Không xác định</string>
+    <string name="txt_tab1">Tab1</string>
+    <string name="txt_tab2">tab2</string>
+    <string name="txt_tab3">tab3</string>
+    <string name="txt_tab4">tab4</string>
+</resources>
