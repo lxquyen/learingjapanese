@@ -1,5 +1,13 @@
 [
     {
+        "merged": "C:\\Users\\MyPC\\Documents\\learingjapanese\\LearningJapanese\\library\\datetime\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\mdtp_date_picker_selector.xml",
+        "source": "C:\\Users\\MyPC\\Documents\\learingjapanese\\LearningJapanese\\library\\datetime\\build\\intermediates\\bundles\\debug\\res\\color\\mdtp_date_picker_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyPC\\Documents\\learingjapanese\\LearningJapanese\\library\\datetime\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\mdtp_done_text_color.xml",
+        "source": "C:\\Users\\MyPC\\Documents\\learingjapanese\\LearningJapanese\\library\\datetime\\build\\intermediates\\bundles\\debug\\res\\color\\mdtp_done_text_color.xml"
+    },
+    {
         "merged": "G:\\Ominext542015\\android\\hotline\\ChatClientServer\\library\\datetime\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\mdtp_done_text_color_dark.xml",
         "source": "G:\\Ominext542015\\android\\hotline\\ChatClientServer\\library\\datetime\\build\\intermediates\\bundles\\debug\\res\\color\\mdtp_done_text_color_dark.xml"
     },
@@ -14,6 +22,14 @@
     {
         "merged": "C:\\Users\\MyPC\\Desktop\\LearningJapanese\\library\\datetime\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\mdtp_date_picker_selector.xml",
         "source": "C:\\Users\\MyPC\\Desktop\\LearningJapanese\\library\\datetime\\build\\intermediates\\bundles\\debug\\res\\color\\mdtp_date_picker_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyPC\\Documents\\learingjapanese\\LearningJapanese\\library\\datetime\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\mdtp_done_text_color_dark.xml",
+        "source": "C:\\Users\\MyPC\\Documents\\learingjapanese\\LearningJapanese\\library\\datetime\\build\\intermediates\\bundles\\debug\\res\\color\\mdtp_done_text_color_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\MyPC\\Documents\\learingjapanese\\LearningJapanese\\library\\datetime\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\mdtp_date_picker_year_selector.xml",
+        "source": "C:\\Users\\MyPC\\Documents\\learingjapanese\\LearningJapanese\\library\\datetime\\build\\intermediates\\bundles\\debug\\res\\color\\mdtp_date_picker_year_selector.xml"
     },
     {
         "merged": "G:\\Ominext542015\\android\\hotline\\ChatClientServer\\library\\datetime\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\mdtp_done_text_color.xml",
